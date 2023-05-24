@@ -12,7 +12,7 @@ import Homeaudio from "./Pages/Homeaudio"
 import Camera from "./Pages/Camera"
 import Generators from "./Pages/Generators"
 import Mobile from "./Pages/Mobile"
-import View from "./Pages/view"
+import View from "./Pages/View"
 function App() {
 
   return (
