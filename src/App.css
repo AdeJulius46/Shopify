@@ -41,12 +41,11 @@ body{
     color: black;
 }
 
-
 /* Heroo */
 .right{
     /* outline:  thin solid red; */
     border-radius: 20px;
-    width: 270px;
+    /* width: 270px; */
     background-color: #E6F6F0;
     padding-top: 20px;
 }
@@ -61,7 +60,7 @@ body{
     /* outline:  thin solid red; */
     margin-left: 15px;  
     border-radius: 20px;
-    height: 55vh;
+    /* height: 56vh; */
     background: linear-gradient(130deg,  #3BB273 60%,  #FFB7C3 60%);
     /* background-size: cover; */
 }
@@ -77,12 +76,6 @@ body{
     border: none;
     border-radius: 10px;
 }
-.get{
-    outline: thin solid red;
-}
-.get2{
-    outline: thin solid red;
-}
 
 .heroo{
     margin-top:   100px;
@@ -93,4 +86,19 @@ font-size: 16px;
 font-weight: 500;
 letter-spacing: 0em;
 
+}
+/* Product */
+
+.pr{
+    margin-top: 20px;
+    background-color: #FFB7C3;
+    display: flex;
+    margin-right: 30px;
+    /* outline: thin solid red; */
+    border-radius: 6px;
+}
+.see{
+    /* outline: thin solid red; */
+    text-align: end;
+    margin-left: 80px;
 }

@@ -21,11 +21,11 @@ const Hero = () => {
           </div>
         </div>
         <div className='col-lg-9 col-sm-12' >
-          <div  className='left'>
+          <div  className='left p-3'>
             <div className='row left2' >
             <div className='col-6 get'>
-            <h1 className='p-2'>Get 20% off our <br/> first order!</h1>
-            <p className='p-2 fs-3' >Use code: <span><button className='btne'>First 20</button></span></p>
+            <h1 className='p-3'>Get 20% off our <br/> first order!</h1>
+            <p className='p-3 fs-3' >Use code: <span><button className='btne'>First 20</button></span></p>
             <label className='exp fs-5' >
             Expires on 13th of May 2023
             </label>

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Test from './Test'
 const Mobile = () => {
   return (
-    <div>Mobile</div>
+    <div><Test/></div>
   )
 }
 

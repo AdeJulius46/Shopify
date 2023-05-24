@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Test from './Test'
 const Generators = () => {
   return (
-    <div>Generators</div>
+    <div><Test /></div>
   )
 }
 
