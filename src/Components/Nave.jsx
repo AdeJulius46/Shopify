@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const Nave = () => {
   return (
     
-<Navbar bg="light" expand="lg"  className='yh'>
+<Navbar  expand="lg"  className='yh'>
       <Container fluid>
         <Navbar.Brand href="#"
               className="ms-5 "
