@@ -41,6 +41,14 @@ body{
     color: black;
 }
 
+
+
+/* Footer */
+.footer{
+    margin-right: 0px;
+    margin-top: 30px;
+    /* padding: 30px; */
+}
 /* Heroo */
 .right{
     /* outline:  thin solid red; */

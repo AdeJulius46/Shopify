@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 import "../App.css"
 const Layout = () => {
   return (
-    <div className='layout'>
+    <div className='layout d-flex justify-content-space-between'>
       <Nave />
       <div className='pro' >
 
