@@ -102,3 +102,17 @@ letter-spacing: 0em;
     text-align: end;
     margin-left: 80px;
 }
+
+/* Test */
+.curvee {
+    border-radius: 15px !important;
+    /* width: 234px !important; */
+}
+.curvee > .curve{
+    border-radius: 15px 15px 0px 0px;
+    height: 40vh;
+}
+.star{
+    color:rgb(225,183,0);
+    font-size: 15px;
+}

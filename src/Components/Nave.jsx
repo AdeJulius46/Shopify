@@ -7,6 +7,10 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import {RiAccountCircleLine} from 'react-icons/ri'
+import {IoHelpCircleOutline} from 'react-icons/io5'
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+
 
 const Nave = () => {
   return (
@@ -41,7 +45,10 @@ const Nave = () => {
             style={{ maxHeight: '200px' }}
             navbarScroll
           >
-            <NavDropdown title="Account" id="navbarScrollingDropdown"
+            <NavDropdown title={ <span>
+              <RiAccountCircleLine className='fs-3 me-2'/> Account
+            </span>}
+              id="navbarScrollingDropdown"
               className='ms-4'
             >
               <NavDropdown.Item href="#action3"></NavDropdown.Item>
@@ -54,7 +61,11 @@ const Nave = () => {
               </NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Help" id="navbarScrollingDropdown"
+            <NavDropdown title={
+              <span>
+                <IoHelpCircleOutline  className='fs-3 me-2'/> Help
+              </span>
+            } id="navbarScrollingDropdown"
               className='ms-4   '
 
             >
@@ -72,7 +83,12 @@ const Nave = () => {
               </NavDropdown.Item>
             </NavDropdown>
             
-            <NavDropdown title="Cart" id="navbarScrollingDropdown"
+            <NavDropdown title={
+              <span>
+                <AiOutlineShoppingCart className="fs-3 me-2"/>
+                Cart
+              </span>
+            } id="navbarScrollingDropdown"
             
             className='ms-4'
             >

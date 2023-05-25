@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Test from './Test'
 const Camera = () => {
   return (
-    <div>Camera</div>
+    <div>
+      <Test/>
+    </div>
   )
 }
 

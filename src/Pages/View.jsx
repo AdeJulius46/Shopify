@@ -1,8 +1,11 @@
 import React from 'react'
+import Test from './Test'
 
 const View = () => {
   return (
-    <div>view</div>
+    <div>
+      <Test />
+    </div>
   )
 }
 
