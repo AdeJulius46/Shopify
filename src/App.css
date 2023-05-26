@@ -19,16 +19,16 @@ body{
     margin-left: 80px;
 }
 .yh{
-    margin-top: -2px;
-    z-index: 3;
-    position: fixed !important;
+    margin-top: 0;
+    z-index: 6;
+    position:fixed !important;
     width: 100%;
     background-color: #E6F6F0;;
 }
 .layout{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 
 }
 .yellow{
@@ -116,6 +116,10 @@ letter-spacing: 0em;
     border-radius: 15px !important;
     /* width: 234px !important; */
 }
+
+.suc{
+    background-color:#3BB273
+}
 .curvee > .curve{
     border-radius: 15px 15px 0px 0px;
     height: 40vh;
@@ -123,4 +127,21 @@ letter-spacing: 0em;
 .star{
     color:rgb(225,183,0);
     font-size: 15px;
+}
+.jh{
+    border: none;
+    width: 10vw;
+    background-color:#F29021
+}
+.jhe{
+    background-color:#3BB273
+}
+.sh{
+    font-family: Roboto !important;
+font-size: 60px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: left;
+
 }

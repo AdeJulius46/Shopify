@@ -28,7 +28,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -42,7 +42,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -56,7 +56,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -70,7 +70,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -107,7 +107,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -121,7 +121,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -135,7 +135,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -149,7 +149,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -179,7 +179,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -193,7 +193,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3  text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -207,7 +207,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3  text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
@@ -221,7 +221,7 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100 border-0 rounded-3 bg-success text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3  text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
