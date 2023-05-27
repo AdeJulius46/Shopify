@@ -6,7 +6,8 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+
 import {RiAccountCircleLine} from 'react-icons/ri'
 import {IoHelpCircleOutline} from 'react-icons/io5'
 import {AiOutlineShoppingCart} from 'react-icons/ai'
@@ -69,9 +70,11 @@ const Nave = () => {
               className='ms-4   '
 
             >
+              <Link  to='help' >
               <NavDropdown.Item href="#action4" className='p-2'>
                 Help center
               </NavDropdown.Item>
+              </Link>
               <NavDropdown.Item href="#action5" className='p-2'>
                 Place and track order 
               </NavDropdown.Item>

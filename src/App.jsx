@@ -13,6 +13,7 @@ import Camera from "./Pages/Camera"
 import Generators from "./Pages/Generators"
 import Mobile from "./Pages/Mobile"
 import View from "./Pages/View"
+import Help from "./Pages/Help"
 function App() {
 
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="mobile" element={<Mobile/>}/>
             <Route path="view" element={<View/>} />
           </Route>
+          <Route path="help" element={<Help/>} />
         </Route>
       </Routes>
     </div>
