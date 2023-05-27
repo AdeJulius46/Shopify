@@ -10,7 +10,6 @@ const Footer = () => {
           <div className='row d-flex justify-content-space-between'>
             <div className='col-2 p-3'>
               <div className='fs-1 mx-3 text-light  sho' >Shopinet</div>
-
               <div className='fs-2 text-light mx-3'  ><AiOutlineTwitter/> <AiFillFacebook/> <AiFillInstagram /> </div>
 
             </div>

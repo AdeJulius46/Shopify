@@ -3,6 +3,13 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import "../App.css"
 import pic from "../assets/Hear.png"
+import gow from "../assets/gow.png"
+import gowe from "../assets/gowe.png"
+import gre from "../assets/gre.png"
+import gree from "../assets/gree.png"
+import age from "../assets/age.png"
+import agee from "../assets/agee.png"
+import age1 from "../assets/age1.png"
 import {AiFillStar} from 'react-icons/ai'
 import {AiOutlineHeart} from 'react-icons/ai'
 const Test = () => {
@@ -19,7 +26,7 @@ const Test = () => {
 
     <CardGroup className='mt-3 me-3 '>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -33,7 +40,7 @@ const Test = () => {
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={agee} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -47,7 +54,7 @@ const Test = () => {
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age1} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -61,7 +68,7 @@ const Test = () => {
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -84,6 +91,40 @@ const Test = () => {
           See all
       </div>
     </div>
+    <CardGroup className='mt-3 me-3 border-0'>
+  <Card className='m-3 me-2 border-0'>
+    <Card.Img className='cur' src={gow} />
+    <Card.Body className='p-2'>
+    
+      <Card.Title  className='mx-3 text-center mt-2' >Fashion</Card.Title>
+      
+    </Card.Body>
+  </Card>
+  <Card className='m-3 me-2 border-0'>
+    <Card.Img className='cur' src={gre} />
+    <Card.Body className='p-2'>
+    
+      <Card.Title  className='mx-3 text-center mt-2' >Electronics</Card.Title>
+      
+    </Card.Body>
+  </Card >
+  <Card className='m-3 me-2 border-0'>
+    <Card.Img className='cur' src={gree} />
+    <Card.Body className='p-2'>
+    
+      <Card.Title  className='mx-3 text-center mt-2' >Phones</Card.Title>
+      
+    </Card.Body>
+  </Card>
+  <Card className='m-3 me-2 border-0'>
+    <Card.Img className='cur' src={gowe} />
+    <Card.Body className='p-2'>
+    
+      <Card.Title  className=' mt-2 mx-3 text-center' >Computing</Card.Title>
+      
+    </Card.Body>
+  </Card>
+  </CardGroup>
 
 
 
@@ -98,7 +139,7 @@ const Test = () => {
     
     <CardGroup className='mt-3 me-3 '>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -112,7 +153,7 @@ const Test = () => {
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={agee} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -126,7 +167,7 @@ const Test = () => {
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age1} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -140,7 +181,7 @@ const Test = () => {
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -166,11 +207,10 @@ const Test = () => {
       </div>
     </div>
 
-
     
     <CardGroup className='mt-3 me-3 '>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -179,12 +219,12 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={agee} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -193,12 +233,12 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100  suc border-0 rounded-3  text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age1} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -207,12 +247,12 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100  suc border-0 rounded-3  text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
   <Card className='m-2 me-2 curvee'>
-    <Card.Img className='curve ' src={pic} />
+    <Card.Img className='curve ' src={age} />
     <Card.Body className='p-2'>
       <p className='mx-3' >Portable Pu Leather bag</p>
       <Card.Title  className='mx-3' >$2400</Card.Title>
@@ -221,11 +261,12 @@ const Test = () => {
       <span className='align-self-end fs-5 '><AiOutlineHeart/></span>
       </div>
       <div className='text-center p-3'>
-        <button className='mx-auto p-2 w-100  suc border-0 rounded-3  text-light mt-4'> Add to cart </button>
+        <button className='mx-auto p-2 w-100  suc border-0 rounded-3 success text-light mt-4'> Add to cart </button>
       </div>
     </Card.Body>
   </Card>
 </CardGroup>
+
 
     
 

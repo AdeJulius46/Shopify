@@ -105,6 +105,14 @@ letter-spacing: 0em;
     /* outline: thin solid red; */
     border-radius: 6px;
 }
+.pre{
+    margin-top: 20px;
+    background-color: #FFB7C3;
+    display: flex;
+    margin-right: 30px;
+    /* outline: thin solid red; */
+    border-radius: 6px;
+}
 .see{
     /* outline: thin solid red; */
     text-align: end;
@@ -123,6 +131,11 @@ letter-spacing: 0em;
 .curvee > .curve{
     border-radius: 15px 15px 0px 0px;
     height: 40vh;
+}
+
+.cur{
+    height: 40vh;
+    border: none; 
 }
 .star{
     color:rgb(225,183,0);
