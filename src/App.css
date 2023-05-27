@@ -124,6 +124,9 @@ letter-spacing: 0em;
     border-radius: 15px !important;
     /* width: 234px !important; */
 }
+.help{
+    margin-top: 100px !important;
+}
 
 .suc{
     background-color:#3BB273
