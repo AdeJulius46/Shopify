@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import "../App.css"
@@ -18,7 +19,8 @@ import w from "../assets/w.png"
 import {AiFillStar} from 'react-icons/ai'
 import {AiOutlineHeart} from 'react-icons/ai'
 
-const Wom = () => {
+
+const Me = () => {
   return (
     <div>
 
@@ -268,4 +270,4 @@ const Wom = () => {
   )
 }
 
-export default Wom
+export default Me
