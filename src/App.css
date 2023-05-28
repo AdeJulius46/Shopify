@@ -146,8 +146,10 @@ letter-spacing: 0em;
 }
 .jh{
     border: none;
-    width: 10vw;
-    background-color:#F29021
+    width: 100px;
+    background-color:#F29021;
+    font-weight: 700;
+    
 }
 .jhe{
     background-color:#3BB273
